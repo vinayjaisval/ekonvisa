@@ -101,6 +101,7 @@
                 <div class="navbar-nav py-0">
                     <a href="index.php" class="nav-item nav-link active">Home</a>
                     <a href="about.php" class="nav-item nav-link">About</a>
+                    <a href="service.php" class="nav-item nav-link">Services</a>
                     <a href="contact.php" class="nav-item nav-link">Contact Us</a>
                 </div>
             </div>

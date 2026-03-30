@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $name = $_POST['name'];
         $email = $_POST['email'];
         $phone = $_POST['phone'];
-        $project = $_POST['project'];
+        // $project = $_POST['project'];
         $subject = $_POST['subject'];
         $message = $_POST['message'];
 
@@ -42,7 +42,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p><b>Name:</b> $name</p>
             <p><b>Email:</b> $email</p>
             <p><b>Phone:</b> $phone</p>
-            <p><b>Project:</b> $project</p>
             <p><b>Subject:</b> $subject</p>
             <p><b>Message:</b><br>$message</p>
         ";
@@ -86,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <i class="fas fa-map-marked-alt fa-4x text-primary bg-light p-3 rounded"></i>
                     <div class="ps-3">
                         <h5>Location</h5>
-                        <p>123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States of America.</p>
+                        <p>B-37, 1st FLOOR, -Sector 2 Noida, 201301</p>
                     </div>
                 </div>
                 <div class="row g-3">
@@ -113,7 +112,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <h5 class="mb-3">Opening Hrs</h5>
                                 <div class="mb-3">
                                     <h6 class="mb-0">Mon - Saturday:</h6>
-                                    <a href="#" class="fs-5 text-primary">09.30 am to 06.30 pm</a>
+                                    <a href="#" class="fs-5 text-primary">09.30 AM to 06.30 PM</a>
                                 </div>
                             </div>
                         </div>
@@ -126,11 +125,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 class="fas fa-share fa-3x text-primary"></i></div>
                     </div>
                     <div class="d-flex">
-                        <a class="btn btn-secondary border-secondary me-2 p-0" href="">facebook <i
+                        <a class="btn btn-secondary border-secondary me-2 p-0"
+                            href="https://www.facebook.com/profile.php?id=61587479755747">facebook <i
                                 class="fas fa-chevron-circle-right"></i></a>
-                        <a class="btn btn-secondary border-secondary mx-2 p-0" href="">linkedin <i
+                        <a class="btn btn-secondary border-secondary mx-2 p-0"
+                            href="https://www.linkedin.com/company/ekon-visa-services/">linkedin <i
                                 class="fas fa-chevron-circle-right"></i></a>
-                        <a class="btn btn-secondary border-secondary mx-2 p-0" href="">instagram <i
+                        <a class="btn btn-secondary border-secondary mx-2 p-0"
+                            href="https://www.instagram.com/ekonvisaservices/">instagram <i
                                 class="fas fa-chevron-circle-right"></i></a>
                     </div>
                 </div>
@@ -159,17 +161,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             </div>
                         </div>
 
-                        <div class="col-lg-12 col-xl-6">
+                        <!-- <div class="col-lg-12 col-xl-6">
                             <div class="form-floating">
                                 <input type="text" name="phone" class="form-control" placeholder="Phone">
                                 <label>Your Phone</label>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="col-lg-12 col-xl-6">
+                        <div class="col-12">
                             <div class="form-floating">
-                                <input type="text" name="project" class="form-control" placeholder="Project">
-                                <label>Your Project</label>
+                                <input type="text" name="phone" class="form-control" placeholder="Phone">
+                                <label>Your Phone</label>
                             </div>
                         </div>
 

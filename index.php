@@ -87,6 +87,7 @@
             </div>
 
         </div>
+        
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
             <span class="carousel-control-prev-icon bg-secondary wow fadeInLeft" data-wow-delay="0.2s"
                 aria-hidden="false"></span>
@@ -134,7 +135,7 @@
                             <div class="mb-2">
                                 <i class="fas fa-ticket-alt fa-4x text-primary"></i>
                             </div>
-                            <h1 class="display-5 fw-bold mb-2">15</h1>
+                            <h1 class="display-5 fw-bold mb-2">13</h1>
                             <p class="text-muted mb-0">Years of Experience</p>
                         </div>
                     </div>
@@ -160,7 +161,7 @@
                             </div>
                             <div class="d-flex flex-column justify-content-center">
                                 <span class="text-primary">Have any questions?</span>
-                                <span class="text-secondary fw-bold fs-5" style="letter-spacing: 2px;">Free: 8118908533
+                                <span class="text-secondary fw-bold fs-5" style="letter-spacing: 2px;">Free: +91 8118908533
                                 </span>
                             </div>
                         </div>
@@ -314,8 +315,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-content p-4 mb-5">
-                    <p class="fs-5 mb-0">"From the very first consultation to getting the visa stamp, they were with me
-                        at every stage. The team is knowledgeable, responsive, and genuinely cares about your success."
+                    <p class="fs-5 mb-0">"From the very first consultation to receiving my visa stamp, the team supported me at every stage. They are incredibly knowledgeable, responsive, and truly invested in their clients' success. I highly recommend them to anyone planning to move abroad."
                     </p>
                     <div class="d-flex justify-content-end">
                         <i class="fas fa-star text-secondary"></i>
@@ -371,7 +371,7 @@
                 </div>
                 <div class="d-flex">
                     <div class="rounded-circle me-4" style="width: 100px; height: 100px;">
-                        <img class="img-fluid rounded-circle" src="img/testimonial6.jpg" alt="img">
+                        <img class="img-fluid rounded-circle" src="img/clientreviewimg5.png" alt="img">
                     </div>
                     <div class="my-auto">
                         <h5>Priyanka Chand</h5>
