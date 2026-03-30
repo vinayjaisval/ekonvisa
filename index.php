@@ -210,7 +210,7 @@
                                     <p class="mb-4">Get support with application guidance, required documents, and
                                         travel visa preparation for leisure and short-term visits.</p>
                                     <a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="touristvisa.php">Explore
-                                        More</a>
+                                        More</a>rt
                                 </div>
                             </div>
                         </div>
@@ -315,7 +315,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-content p-4 mb-5">
-                    <p class="fs-5 mb-0">"From the very first consultation to receiving my visa stamp, the team supported me at every stage. They are incredibly knowledgeable, responsive, and truly invested in their clients' success. I highly recommend them to anyone planning to move abroad."
+                    <p class="fs-5 mb-0">"From the very first consultation to receiving my visa stamp, the team supported me at every stage. They are incredibly knowledgeable, responsive, and truly invested in their clients' success."
                     </p>
                     <div class="d-flex justify-content-end">
                         <i class="fas fa-star text-secondary"></i>

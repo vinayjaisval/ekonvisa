@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $mail->send();
 
-        echo "<script>alert('✅ Message Sent Successfully!'); window.location.href='contact.php';</script>";
+        echo "<script>alert('✅ Message Sent Successfully!'); window.location.href='https://www.overseaseducationlane.com/';</script>";
     } catch (Exception $e) {
         echo "<script>alert('❌ Error: {$mail->ErrorInfo}');</script>";
     }
