@@ -371,7 +371,7 @@
                 </div>
                 <div class="d-flex">
                     <div class="rounded-circle me-4" style="width: 100px; height: 100px;">
-                        <img class="img-fluid rounded-circle" src="img/clientreviewimg5.png" alt="img">
+                        <img class="img-fluid rounded-circle" src="img/img5.png" alt="img">
                     </div>
                     <div class="my-auto">
                         <h5>Priyanka Chand</h5>
