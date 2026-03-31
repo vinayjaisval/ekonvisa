@@ -26,7 +26,7 @@
                             We help students, professionals, and travelers with smooth visa guidance.
                         </p>
 
-                        <a class="btn btn-primary rounded-pill px-4 py-2 wow fadeInUp" href="#">
+                        <a class="btn btn-primary rounded-pill px-4 py-2 wow fadeInUp" href="contact.php">
                             Apply Now
                         </a>
                     </div>
@@ -50,7 +50,7 @@
                             We simplify the visa process and help you move forward confidently.
                         </p>
 
-                        <a class="btn btn-primary rounded-pill px-4 py-2 wow fadeInUp" href="#">
+                        <a class="btn btn-primary rounded-pill px-4 py-2 wow fadeInUp" href="contact.php">
                             Get Started
                         </a>
 
@@ -78,7 +78,7 @@
 
                         </p>
 
-                        <a class="btn btn-primary rounded-pill px-4 py-2 wow fadeInUp" href="#">
+                        <a class="btn btn-primary rounded-pill px-4 py-2 wow fadeInUp" href="contact.php">
                             Start Your Application
                         </a>
 
