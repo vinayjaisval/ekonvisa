@@ -50,7 +50,7 @@
                 <div class="d-flex">
                     <a href="#" class="text-muted me-4"><i
                             class="fas fa-envelope text-secondary me-2"></i>info@overseaseducationlane.com</a>
-                    <a href="#" class="text-muted me-0"><i class="fas fa-phone-alt text-secondary me-2"></i> 892 992
+                    <a href="#" class="text-muted me-0"><i class="fas fa-phone-alt text-secondary me-2"></i>+91  892 992
                         2525</a>
                 </div>
             </div>

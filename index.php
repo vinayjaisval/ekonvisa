@@ -210,7 +210,7 @@
                                     <p class="mb-4">Get support with application guidance, required documents, and
                                         travel visa preparation for leisure and short-term visits.</p>
                                     <a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="touristvisa.php">Explore
-                                        More</a>rt
+                                        More</a>
                                 </div>
                             </div>
                         </div>
