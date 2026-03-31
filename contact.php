@@ -1,58 +1,62 @@
 <?php
+// Enable PHP error reporting for debugging
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// Load Composer autoloader
+require 'vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    // Collect form data safely
+    $name = htmlspecialchars($_POST['name'] ?? '');
+    $email = htmlspecialchars($_POST['email'] ?? '');
+    $phone = htmlspecialchars($_POST['phone'] ?? '');
+    $project = htmlspecialchars($_POST['project'] ?? '');
+    $subject = htmlspecialchars($_POST['subject'] ?? '');
+    $message = htmlspecialchars($_POST['message'] ?? '');
 
     $mail = new PHPMailer(true);
 
     try {
-        //SMTP CONFIG
+        // SMTP configuration
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
-        $mail->SMTPAuth = true;
-        $mail->Username = 'upadhyayraj739@gmail.com';
-        $mail->Password = 'egubtuqbflljgfij';
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'upadhyayraj739@gmail.com'; // your Gmail
+        $mail->Password   = 'egubtuqbflljgfij';        // Gmail App Password
         $mail->SMTPSecure = 'tls';
-        $mail->Port = 587;
+        $mail->Port       = 587;
 
-        //  FORM DATA
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $phone = $_POST['phone'];
-        // $project = $_POST['project'];
-        $subject = $_POST['subject'];
-        $message = $_POST['message'];
+        // Sender and recipient
+        $mail->setFrom('upadhyayraj739@gmail.com', 'Website Contact');
+        $mail->addAddress('upadhyayraj739@gmail.com');
 
-        //  SENDER & RECEIVER
-        // $mail->setFrom('your-email@gmail.com', 'Website Contact');
-        $mail->addAddress('upadhyayraj739@gmail.com'); //  Enter the mail where you want to receive
-
-        // EMAIL CONTENT
+        // Email content
         $mail->isHTML(true);
-        $mail->Subject = "New Contact Form Message";
-
-        $mail->Body = "
+        $mail->Subject = "New Contact Form Message: $subject";
+        $mail->Body    = "
             <h3>New Contact Form Submission</h3>
-            <p><b>Name:</b> $name</p>
-            <p><b>Email:</b> $email</p>
-            <p><b>Phone:</b> $phone</p>
-            <p><b>Subject:</b> $subject</p>
-            <p><b>Message:</b><br>$message</p>
+            <p><b>Name:</b> {$name}</p>
+            <p><b>Email:</b> {$email}</p>
+            <p><b>Phone:</b> {$phone}</p>
+            <p><b>Project:</b> {$project}</p>
+            <p><b>Subject:</b> {$subject}</p>
+            <p><b>Message:</b><br>{$message}</p>
         ";
 
         $mail->send();
+        echo "<script>alert('✅ Message Sent Successfully!'); window.location.href='contact.php';</script>";
 
-        echo "<script>alert('✅ Message Sent Successfully!'); window.location.href='https://www.overseaseducationlane.com/';</script>";
     } catch (Exception $e) {
-        echo "<script>alert('❌ Error: {$mail->ErrorInfo}');</script>";
+        echo "<script>alert('❌ Message could not be sent. Mailer Error: {$mail->ErrorInfo}');</script>";
     }
 }
+
 ?>
 
 
